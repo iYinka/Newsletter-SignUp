@@ -23,14 +23,25 @@ To get the key for merge_fields recognized by mailchimp, go to profile-->Audienc
 
 
 
-HOSTING OUR PROJECT ONLINE USING HEROKU
+HOSTING OUR PROJECT ONLINE USING HEROKU(Ensure you are logged in)
 
 -Create accnt
 -Download Heroku CLI
 -Run Heroku login from terminal
 
 
-ADD PROJECT TO GITHUB
+ADD PROJECT TO GITHUB(Ensure you have a github account)
 -Ensure git is downloaded globally from github.com(with latest version)
 -Run git init from CLI on Project Folder root directory e.g Desktop/Newsletter-SignUp
--Run git add .   as well on same directory
+-Run git add .   as well on same directory(WAIT TILL IT FINISHES)
+-Run git commit -m "First Commit"     The string can be as desired
+-Run heroku create
+-Run git push heroku master
+
+-Run heroku logs   to check for error logs
+
+
+TO UPLOAD UPDATES:
+		-Run git add .   as well on same directory(WAIT TILL IT FINISHES)
+		-Run git commit -m "First Commit     The string can be as desired
+		-Run git push heroku master
