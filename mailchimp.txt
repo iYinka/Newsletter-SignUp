@@ -1,0 +1,36 @@
+API Key created from mailchimp.com(my username is iYinka) is 6fd39931140312bcf622c6293c0785e-us17
+List ID = ba919b3dda is used by mailchimp to recognize my audience list
+
+For Doc on how to create contacts mailing list:
+mailchimp.com/developer-->API reference --> Lists/Audiences
+
+
+To create mailing list:
+mailchimp.com-->profile dropdown-->Audience-->Manage Audience-->Settings-->scroll down for "unique ID" a.ka. Audience ID
+
+
+mailchimp take audience data in JSON string form which means the data sent to mailchimp has to be coverted from JSON.parse() to string formusing JSON.stringify() 
+
+
+CHECK THE KEY PARAMETERS REQUIRED BY mailchimp by routing:
+mailchimp.com/developer --> API reference --> Lists/Audiences --> Batch subscribe or unsubscribe(check for Body parameters).
+
+All data is put inside members[] in the form of array with braces, curly brackets and colon separating each member.
+
+To get the key for merge_fields recognized by mailchimp, go to profile-->Audience-->Settings-->Audience fields and Merge tags
+
+
+
+
+
+HOSTING OUR PROJECT ONLINE USING HEROKU
+
+-Create accnt
+-Download Heroku CLI
+-Run Heroku login from terminal
+
+
+ADD PROJECT TO GITHUB
+-Ensure git is downloaded globally from github.com(with latest version)
+-Run git init from CLI on Project Folder root directory e.g Desktop/Newsletter-SignUp
+-Run git add .   as well on same directory
